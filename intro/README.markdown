@@ -29,6 +29,7 @@ Del 3 - Ascii Art
 Vis en graf i console over de 10 mest populære buzzwordene for JavaZone 2011. 
 
 En mulig løsning vil kunne se slik ut:
+
 	SOA   [***************]
 	EJB   [**********]
 	Agile [****]
