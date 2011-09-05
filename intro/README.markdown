@@ -30,10 +30,10 @@ Vis en graf i console over de 10 mest populære buzzwordene for JavaZone 2011.
 
 En mulig løsning vil kunne se slik ut:
 
+	SOAP  [******************]
 	SOA   [***************]
 	EJB   [**********]
 	Agile [****]
-	SOAP  [******************]
 
 Del 4 - Tag cloud
 -----------------
