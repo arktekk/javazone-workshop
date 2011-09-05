@@ -10,6 +10,7 @@ Under er noen vanlig sbt-kommandoer.
 
 * gen-idea (Generer IntelliJ IDEA prosjektfiler. Tilsvarende Maven's idea:idea)
 * eclipse (Generer Eclipse prosjektfiler)
+* run (kjører main-class)
 * compile
 * clean
 * console (Starter Scala REPL med prosjektets dependencies på classpath)
