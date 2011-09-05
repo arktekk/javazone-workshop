@@ -7,11 +7,36 @@ Sammen med denne README-filen finner dere et skjelett man kan ta utgangspunkt i.
 
 Under `src/main/resources` ligger en fil som heter `buzz.txt`. Denne inneholder titler og beskrivelser av alle sesjonene fra hele programmet til JavaZone 2011.
 
-Følg stegene som er beskrevet under, men ikke nøl med å spor helt av hvis det føles riktig.
+Følg oppgavedelene som er beskrevet under, men ikke nøl med å spor helt av hvis det føles riktig.
 
 Ikke bli sittende fast for lenge - spør instruktørene. Husk, vi skal ha det gøy!
 
-Steg
-----
+Del 1 - Buzzword Bingo
+----------------------
 
-1. 
+Finn de 3 mest brukte buzzwordene i agendaen for JavaZone 2011, sortert etter populæritet.
+
+Rop ut når dere har klart dette!
+
+Del 2 - Buzzword Fight!
+-----------------------
+
+Applikasjonen skal kunne ta inn to buzzwords og finne ut hvilken av de som er mest populær.
+
+Del 3 - Ascii Art
+-----------------
+
+Vis en graf i console over de 10 mest populære buzzwordene for JavaZone 2011. 
+
+En mulig løsning vil kunne se slik ut:
+	SOA   [***************]
+	EJB   [**********]
+	Agile [****]
+	SOAP  [******************]
+
+Del 4 - Tag cloud
+-----------------
+
+Vis en tag cloud av de 10 mest brukte tekniske ordene for JavaZone 2011. Ordene skal vises frem i størrelse relativt til populæritet.
+
+En mulig løsning vil være å lage en html side. 
