@@ -35,8 +35,8 @@ En mulig løsning vil kunne se slik ut:
 	EJB   [**********]
 	Agile [****]
 
-Del 4 - Tag cloud
------------------
+Del 4 - Buzz Cloud
+------------------
 
 Vis en tag cloud av de 10 mest brukte tekniske ordene for JavaZone 2011. Ordene skal vises frem i størrelse relativt til populæritet.
 
