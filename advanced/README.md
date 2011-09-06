@@ -1,21 +1,29 @@
-Advanced Scala
+Avansert Scala
 ==============
 
 Målet for denne workshopen er å lage et lite testrammeverk i Scala.
 
-Sammen med denne README-filen finner dere et skjelett vi skal ta utgangspunkt i. Dette skjelettet består av et Scala-prosjekt med standard struktur, som bruker simple build tool (sbt) som byggeverktøy. En liten oversikt over sbt finner du i roten av git-repositoriet.
+Sammen med denne README-filen finner dere et skjelett vi skal ta utgangspunkt i. Skjelettet består av et Scala-prosjekt med standard struktur, som bruker simple build tool (sbt) som byggeverktøy. En liten oversikt over sbt finner du i roten av git-repositoriet.
 
-Under `src/test/scala/` ligger et sett av testklasser. Disse klassene inneholder tester som viser hvordan testrammeverket kan brukes. Forløpig er alle testene utkommentert, men det skal vi gjøre noe med. Ta for dere hver av stegende beskrevet under. For å gjøre det enklest mulig for dere selv, anbefaler vi å utkommentere litt og litt. Målet er å få alle testene til å kjøre, uten å endre testklassene.
+Under `src/test/scala/` ligger et sett av testklasser. Disse klassene inneholder tester som viser hvordan testrammeverket kan brukes. Forløpig er alle testene utkommentert, men det skal vi gjøre noe med. Ta for dere hver av stegende beskrevet under. For å gjøre det enklest mulig for dere selv, anbefaler vi å utkommentere litt og litt. Målet er å få alle testene til å kjøre, uten å endre testene.
+
+Ikke bli sittende fast for lenge - spør instruktørene. Husk, vi skal ha det gøy!
 
 Oppgave1.scala - Enkle assertions
 =====
-Kommenter inn koden og få testene til å kjøre.
-Her anbefaler vi å printe ut resultatet slik at man ser at resultat er som forventet.
 
-Oppgave2.scala
+Kommenter inn koden og få testene til å kjøre. I `Oppgave1.scala` er det et object som heter `RunOppgave1`, som vi skal bruke til å kjøre testene.
+
+Her anbefaler vi å printe ut resultatet slik at man får verifisert resultatet.
+
+Oppgave2.scala - Håndtere exceptions
 =====
-Test rammeverket må støtte tester som kaster exceptions under kjøring
-Kommenter inn koden og få testen til å kjøre med forventet resultat
+
+Test rammeverket må støtte tester som kaster exceptions under kjøring. Selv om en test kaster exception ønsker vi fortsatt å få en rapport i consolet.
+
+Kommenter inn koden og få testen til å kjøre med forventet resultat. 
+
+sbt vil ikke vise deg eventuelle exceptions som blir kastet automatisk - den vil kun rapportere noe slikt som `[error] {file:/...}.../test:run-main: Nonzero exit code: 1`. For å få frem stacktrace kan man skrive sbt-kommandoen `last test:run-main`.
 
 Oppgave3.scala
 =====
