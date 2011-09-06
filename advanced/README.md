@@ -14,12 +14,18 @@ Oppgave1.scala - Enkle assertions
 
 Kommenter inn koden og få testene til å kjøre. I `Oppgave1.scala` er det et object som heter `RunOppgave1`, som vi skal bruke til å kjøre testene.
 
-Her anbefaler vi å printe ut resultatet slik at man får verifisert resultatet.
+Her anbefaler vi å printe ut resultatet slik at man får verifisert resultatet. Resultatet av en testkjøring fra sbt kan feks se slik ut:
+
+	> test:run-main RunOppgave1
+	[info] Running RunOppgave1 
+	2 + 2 == 4 Sucess
+	2 + 2 != 5 Sucess
+	3 + 2 == 4 5 does not equal 4
 
 Oppgave2.scala - Håndtere exceptions
 =====
 
-Test rammeverket må støtte tester som kaster exceptions under kjøring. Selv om en test kaster exception ønsker vi fortsatt å få en rapport i consolet.
+Testrammeverket må støtte tester som kaster exceptions under kjøring. Selv om en test kaster exception ønsker vi fortsatt å få en rapport i consolet.
 
 Kommenter inn koden og få testen til å kjøre med forventet resultat. 
 
