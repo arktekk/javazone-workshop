@@ -1,15 +1,16 @@
 Advanced Scala
 ==============
 
-Målet for denne workshopen er å lage et lite test-rammeverk i Scala.
+Målet for denne workshopen er å lage et lite testrammeverk i Scala.
 
-Sammen med denne README filen finner dere også et skjelett i `src/main/scala/minitest/MiniTest.scala` samt eksempler på hvordan
-rammeverket kan brukes i `src/test/scala`
+Sammen med denne README-filen finner dere et skjelett vi skal ta utgangspunkt i. Dette skjelettet består av et Scala-prosjekt med standard struktur, som bruker simple build tool (sbt) som byggeverktøy. En liten oversikt over sbt finner du i roten av git-repositoriet.
 
-Oppgave1.scala
+Under `src/test/scala/` ligger et sett av testklasser. Disse klassene inneholder tester som viser hvordan testrammeverket kan brukes. Forløpig er alle testene utkommentert, men det skal vi gjøre noe med. Ta for dere hver av stegende beskrevet under. For å gjøre det enklest mulig for dere selv, anbefaler vi å utkommentere litt og litt. Målet er å få alle testene til å kjøre, uten å endre testklassene.
+
+Oppgave1.scala - Enkle assertions
 =====
-Kommenter inn koden og få testene til å kjøre
-Her anbefales det å printe ut resultatet så man ser at man får forventet resultat
+Kommenter inn koden og få testene til å kjøre.
+Her anbefaler vi å printe ut resultatet slik at man ser at resultat er som forventet.
 
 Oppgave2.scala
 =====
