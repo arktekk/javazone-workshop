@@ -21,7 +21,7 @@ Rop ut når dere har klart dette!
 Del 2 - Buzzword Fight!
 -----------------------
 
-Applikasjonen skal kunne ta inn to buzzwords og finne ut hvilken av de som er mest populær.
+Applikasjonen skal kunne ta inn to buzzwords og finne ut hvilket av de som er mest populært.
 
 Del 3 - Ascii Art
 -----------------
@@ -35,8 +35,8 @@ En mulig løsning vil kunne se slik ut:
 	EJB   [**********]
 	Agile [****]
 
-Del 4 - Tag cloud
------------------
+Del 4 - Buzz Cloud
+------------------
 
 Vis en tag cloud av de 10 mest brukte tekniske ordene for JavaZone 2011. Ordene skal vises frem i størrelse relativt til populæritet.
 
