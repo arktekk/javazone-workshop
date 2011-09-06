@@ -24,7 +24,7 @@ Her anbefaler vi å printe ut resultatet slik at man får verifisert resultatet.
 Oppgave2.scala - Håndtere exceptions
 =====
 
-Testrammeverket må støtte tester som kaster exceptions under kjøring. Selv om en test kaster exception ønsker vi fortsatt å få en rapport i consolet.
+Testrammeverket må støtte tester som kaster exceptions under kjøring. Selv om en test kaster exception ønsker vi fortsatt en rapport i consolet.
 
 Kommenter inn koden og få testen til å kjøre med forventet resultat. 
 
