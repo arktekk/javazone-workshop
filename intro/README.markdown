@@ -21,7 +21,7 @@ Rop ut når dere har klart dette!
 Del 2 - Buzzword Fight!
 -----------------------
 
-Applikasjonen skal kunne ta inn to buzzwords og finne ut hvilket av dem som er mest populært.
+Applikasjonen skal kunne ta inn to buzzwords og finne ut hvilket av de som er mest populært.
 
 Del 3 - Ascii Art
 -----------------
