@@ -16,11 +16,10 @@ Kommenter inn koden og få testene til å kjøre. I `Oppgave1.scala` er det et o
 
 Her anbefaler vi å printe ut resultatet slik at man får verifisert resultatet. Resultatet av en testkjøring fra sbt kan feks se slik ut:
 
-	> test:run-main RunOppgave1
 	[info] Running RunOppgave1 
-	2 + 2 == 4 Sucess
-	2 + 2 != 5 Sucess
-	3 + 2 == 4 5 does not equal 4
+	2 + 2 == 4 SUCCESS!
+	2 + 2 != 5 SUCCESS!
+	3 + 2 == 4 FAILURE! 5 does not equal 4
 
 Oppgave2.scala - Håndtere exceptions
 =====
@@ -29,12 +28,14 @@ Testrammeverket må støtte tester som kaster exceptions under kjøring. Selv om
 
 Kommenter inn koden og få testen til å kjøre med forventet resultat. 
 
-sbt vil ikke vise deg eventuelle exceptions som blir kastet automatisk - den vil kun rapportere noe slikt som `[error] {file:/...}.../test:run-main: Nonzero exit code: 1`. For å få frem stacktrace kan man skrive sbt-kommandoen `last test:run-main`.
+sbt vil ikke vise deg eventuelle exceptions som blir kastet automatisk - den vil kun rapportere noe slikt som `[error] {file:/...}.../test:run-main: Nonzero exit code: 1`. For å få frem stacktracet kan man skrive sbt-kommandoen `last test:run-main`.
 
-Oppgave3.scala
+Oppgave3.scala - Late utviklere
 =====
-Implementer støtte for `pending` tester.
-En pending test er hverken riktig eller feil - men pending
+
+Noen ganger er vi late... Vi ønsker derfor å støtte "pending" tester. Tester vi skal implementere imorgen! 
+
+Implementer støtte for "pending" tester. En pending test er hverken riktig eller feil - men pending
 
 Oppgave4.scala
 =====
