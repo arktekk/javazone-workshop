@@ -35,20 +35,23 @@ Oppgave3.scala - Late utviklere
 
 Noen ganger er vi late... Vi ønsker derfor å støtte "pending" tester. Tester vi skal implementere imorgen! 
 
-Implementer støtte for "pending" tester. En pending test er hverken riktig eller feil - men pending
+Implementer støtte for "pending" tester. En pending test er hverken riktig eller feil - men pending.
 
-Oppgave4.scala
+Oppgave4.scala - Pimp my syntax
 =====
-Implementer ved hjelp av implicit conversions en mer fancy assertSyntax
 
-Oppgave5.scala
+Implementer ved hjelp av implicit conversions en mer fancy assertion syntax.
+
+Oppgave5.scala - Before & After
 =====
-Implementer støtte for Before og After
 
-Oppgave6.scala
+Implementer støtte for Before og After. Dette er setup og teardown metoder som skal kjøres før og etter hver eneste test.
+
+Oppgave6.scala - Rapportering
 =====
-Skriv støtte for god rapportering.
-Alle gode test-rammeverk burde produsere en vakker og informativ test-rapport.
-Hvor mange tester feilet, hvor mange var ok, pending osv...
-tips: linux/mac brukere kan printe ut fagekodene i Console for fargerik output f.eks println(Console.GREEN + "Hello World")
 
+Skriv støtte for god rapportering.  
+
+Alle gode test-rammeverk burde produsere en vakker og informativ test-rapport. Hvor mange tester feilet, hvor mange var ok, pending, osv. Lag også en oppsummeringsrapport.
+
+Tips: Linux/Mac brukere kan printe ut fargekodene i Console for fargerik output; f.eks println(Console.GREEN + "Hello World")
